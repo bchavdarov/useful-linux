@@ -10,3 +10,8 @@ Edit the file:
 
 Change first_weekday from 1 (Sunday) to 2 (Monday).
 
+Now generate locale files:
+
+`$ sudo locale-gen`
+
+Reboot. All done. 
