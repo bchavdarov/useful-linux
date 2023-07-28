@@ -1,6 +1,6 @@
 # Standard wordpress – replacing DB urls
 
-wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables --allow-root
+$ wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables --allow-root
 
 # Multisite WordPress – replace database urls
 
