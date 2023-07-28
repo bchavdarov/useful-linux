@@ -4,7 +4,7 @@ wp search-replace 'www.olddomain.com' 'www.newdomain.com' –all-tables –allow
 
 # Multisite WordPress – replace database urls
 
-# First step - change wp-config.php - DOMAIN_CURRENT_SITE to: www.newdomain.com
+## First step - change wp-config.php - DOMAIN_CURRENT_SITE to: www.newdomain.com
 
 wp search-replace --url=www.olddomain.com www.olddomain.com www.newdomain.com 'wp_*options' wp_blogs
 wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables –network
