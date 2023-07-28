@@ -1,4 +1,5 @@
 # Standard wordpress – replacing DB urls
+I am supposing that you have already moved all files and databases to your new domain and/or hosting location. The WP-CLI command to update the new location in the database is: 
 
 $ wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables --allow-root
 
