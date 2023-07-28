@@ -3,3 +3,4 @@ I spent a lot of time searching the web for solutions to some common problems. N
 
 - [How to change the first day of week in Linux](https://github.com/bchavdarov/useful-linux/blob/main/change-first-day-of-week.md).
 - [How to move a wordpress site to a new domain using WP-CLI](https://github.com/bchavdarov/useful-linux/blob/main/move-wordpress-wp-cli.md)
+- [How to update the `package.json` file with the newest versions of the packages](https://github.com/bchavdarov/useful-linux/blob/main/update-package-json-file.md)
