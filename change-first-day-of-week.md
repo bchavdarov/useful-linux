@@ -26,4 +26,6 @@ Until now I haven't found a way to change `first_weekday=1` to `first_weekday=2`
 
 `$ sudo localectl set-locale LC_TIME=en_GB.utf8`
 
-Again reboot. The calendar has **'Monday'** as the first day of the week
+Again reboot. Voila, the calendar has **'Monday'** as the first day of the week. 
+
+This workaround should work with Debian also. 
