@@ -15,3 +15,15 @@ Now generate locale files:
 `$ sudo locale-gen`
 
 Reboot. All done. 
+
+Workaround with **Fedora 40**. 
+
+`$ locale -k LC_TIME`
+
+will display more information about the environmental variable **LC_TIME**, which stores the time and date format.
+
+Until now I haven't found a way to change `first_weekday=1` to `first_weekday=2` (in Fedora). I simply changed the locale variable LC_TIME by:
+
+`$ sudo localectl set-locale LC_TIME=en_GB.utf8`
+
+Again reboot. The calendar has **'Monday'** as the first day of the week
