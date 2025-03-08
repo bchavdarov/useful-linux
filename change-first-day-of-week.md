@@ -1,6 +1,6 @@
 # Change the first day of week for Linux
 
-Tested with **Debian 11/MATE**. To display locale enter command:
+Tested with **Debian 12/bookworm**. To display locale enter command:
 
 `$ locale`
 
