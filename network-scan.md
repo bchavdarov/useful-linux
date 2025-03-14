@@ -12,9 +12,9 @@ Use of arp-scan (Fastest). Install it first:
 
 `sudo apt install arp-scan`
 
-Then scan the network:
+Then scan the network. *I prefer this method for common uses*:
 
-`sudo arp-scan --localnet` I prefer this method for common uses. 
+`sudo arp-scan --localnet` 
 
 If SSH access is enabled on a machine, check who is logged in:
 
