@@ -16,6 +16,6 @@ Then scan the network:
 
 `sudo arp-scan --localnet`
 
+If SSH access is enabled on a machine, check who is logged in:
 
-
-
+`ssh user@192.168.0.X who`
