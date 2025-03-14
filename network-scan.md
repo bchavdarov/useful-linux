@@ -14,8 +14,12 @@ Use of arp-scan (Fastest). Install it first:
 
 Then scan the network:
 
-`sudo arp-scan --localnet`
+`sudo arp-scan --localnet` I prefer this method for common uses. 
 
 If SSH access is enabled on a machine, check who is logged in:
 
 `ssh user@192.168.0.X who`
+
+or
+
+`ssh user@192.168.0.X w`
