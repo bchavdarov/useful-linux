@@ -1,0 +1,21 @@
+# Useful commands in Linux to scan a local network
+
+Scan a local network (assuming the subnet is 192.168.0.0/24)
+
+`sudo nmap -sn 192.168.0.0/24`
+
+Get IP Addresses, Hostnames, and MAC Addresses:
+
+`sudo nmap -sP 192.168.0.0/24`
+
+Use of arp-scan (Fastest). Install it first:
+
+`sudo apt install arp-scan`
+
+Then scan the network:
+
+`sudo arp-scan --localnet`
+
+
+
+
