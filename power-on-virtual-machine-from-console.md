@@ -13,6 +13,7 @@ To power on a virtual machine from the conosole can be very useful when you want
 The output will be something like: 
 
 `"Debian" {ab81efb0-00df-4624-88bb-1a01f57f9e84}`
+
 `"Windows7" {7be55420-7b10-4578-a2fa-b4ea301e2572}`
 
 3. Run the virtual machine:
