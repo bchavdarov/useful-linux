@@ -8,7 +8,9 @@ To power on a virtual machine from the conosole can be very useful when you want
 
 2. Check the names of the virtual machines:
 
-`VBoxManage list vms`
+`VBoxManage list vms` 
+
+or `VBoxManage list runningvms` if you want to see all running machines
 
 The output will be something like: 
 
