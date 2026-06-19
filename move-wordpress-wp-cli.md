@@ -9,9 +9,9 @@ $ wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables --allow
 
 `wp search-replace --url=www.olddomain.com www.olddomain.com www.newdomain.com 'wp_*options' wp_blogs`
 
-`wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables –network`
+`wp search-replace 'www.olddomain.com' 'www.newdomain.com' --all-tables --network`
 
-`wp search-replace 'http://www.newdomain.com' 'https://www.newdomain.com' --all-tables –network`
+`wp search-replace 'http://www.newdomain.com' 'https://www.newdomain.com' --all-tables --network`
 
 `wp search-replace "http:\/\/www.newdomain.com" "https:\/\/www.newdomain.com" --all-tables --network`
 
