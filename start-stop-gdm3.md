@@ -1,5 +1,7 @@
 # Start or stop the GNOME Display Manager
 
+If you need for some reason to start your Ubuntu system directly in the text environment without starting GNOME Display Manager these commands are useful. 
+
 ## Prevent GUI on boot permanently
 
 `sudo systemctl set-default multi-user.target`
@@ -16,4 +18,4 @@ Bring the desktop back manually:
 
 ## Undo this change permanently
 
-sudo systemctl set-default graphical.target
+`sudo systemctl set-default graphical.target`
